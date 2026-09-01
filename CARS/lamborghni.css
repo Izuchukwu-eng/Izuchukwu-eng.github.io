@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+html,
+body{
+    min-height:100%;
+}
+body{
+    margin:0;
+    padding:40px 20px;
+    box-sizing:border-box;
+    font-family:'Share Tech', sans-serif;
+    font-weight:bold;
+    color:#f5f7f2;
+    background-image:linear-gradient(rgba(10, 25, 12, 0.4), rgba(10, 25, 12, 0.4)), url(l.jpg);
+    background-attachment:fixed;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.lamborghini{
+    max-width:850px;
+    margin:0 auto;
+    padding:30px 36px;
+    background-color:rgba(0, 0, 0, 0.86);
+    border:1px solid rgba(0, 0, 0, 0.9);
+    border-radius:12px;
+    box-shadow:0 8px 24px rgba(0, 0, 0, 0.3);
+    line-height:1.5;
+}
+h1,
+h2{
+    color:#ffffff;
+}
+h3{
+    color:#e5e5e5;
+    text-decoration:underline;
+}
+a{
+    color:#ffffff;
+}
+.car-gallery{
+    padding-left:24px;
+}
+.car-gallery li{
+    margin-top:24px;
+}
+.car-gallery img{
+    display:block;
+    width:100%;
+    max-width:620px;
+    height:auto;
+    margin:0 auto;
+    border:1px solid rgba(0, 0, 0, 0.9);
+    border-radius:8px;
+}
+@media (max-width:600px){
+    body{ padding:20px 12px; }
+    .lamborghini{ padding:22px 20px; }
+}

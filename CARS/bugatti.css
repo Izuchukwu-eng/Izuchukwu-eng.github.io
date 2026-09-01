@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+html,
+body{
+    min-height:100%;
+}
+body{
+    margin:0;
+    padding:40px 20px;
+    box-sizing:border-box;
+    font-family:'Share Tech', sans-serif;
+    font-weight:bold;
+    color:#f5f5f5;
+    background-image:linear-gradient(rgba(20, 20, 22, 0.4), rgba(20, 20, 22, 0.4)), url('https://images.unsplash.com/photo-1614200187524-dc4b892acf16?auto=format&fit=crop&w=2400&q=85');
+    background-attachment:fixed;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.bugatti{
+    max-width:850px;
+    margin:0 auto;
+    padding:30px 36px;
+    background-color:rgba(25, 25, 28, 0.84);
+    border:1px solid rgba(218, 165, 32, 0.65);
+    border-radius:12px;
+    box-shadow:0 8px 24px rgba(0, 0, 0, 0.3);
+    line-height:1.5;
+}
+h1,
+h2{
+    color:#d9aa36;
+}
+h3{
+    color:#eed38a;
+    text-decoration:underline;
+}
+a{
+    color:#e8c45d;
+}
+.car-gallery{
+    padding-left:24px;
+}
+.car-gallery li{
+    margin-top:24px;
+}
+.car-gallery img{
+    display:block;
+    width:100%;
+    max-width:620px;
+    height:auto;
+    margin:0 auto;
+    border:1px solid rgba(218, 165, 32, 0.65);
+    border-radius:8px;
+}
+@media (max-width:600px){
+    body{ padding:20px 12px; }
+    .bugatti{ padding:22px 20px; }
+}
